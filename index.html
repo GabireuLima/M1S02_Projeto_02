@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TripAmazing</title>
+        <link href="./index.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+    </head>
+    <body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+      </script>
+        
+                
+                <!-- Início do Cabeçalho -->
+      
+        <header class="header">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">TripAmazing</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Início</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Informações
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Minha Viagem</a></li>
+                      <li><a class="dropdown-item" href="#">Histórico de viagens</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Promoções</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <button class="btn btn-outline-success" type="submit">Fazer Login</button>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Pesquise aqui" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                </form>
+              </div>
+            </div>
+            <form class="d-flex">
+              <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Destino...">
+              <datalist id="datalistOptions">
+                  <option value="Nordeste">
+                  <option value="Norte">
+                  <option value="Centro-Oeste">
+                  <option value="Sudeste">
+                  <option value="Sul">
+              </datalist>
+              <input class="form-control me-2 ms-4" type="date">
+              <button class="btn btn-ligth bg-white"><i class="fas fa-filter"></i></button>
+            </form>                
+          </nav>
+        </header>              
+                    <!-- Final do Cabeçalho -->
+        
+                     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~-->  
+                       
+                    <!-- Início do Conteudo Principal -->
+
+                    <!-- Início da Primeira Linha de Cards -->
+
+        <main class="main-container"> 
+          <div class="container">
+            <div class="row row-cols-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./assets/alter-do-chao.jpg" class="card-img-top" height="202px" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Alter do Chão</h5>
+                    <p class="card-text">Mais conhecido como Caribe Brasileiro, Alter do Chão tem praias esplendorosos e, vale ressaltar, tudo cercado pelo intenso verde amazônico e regado a muita água doce do rio Tapajós. O Pará te espera com bancos de areia branquinha, banhos de rio inesquecíveis, florestas encantadas e, claro, uma culinária espetacular!</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Desconto de 15%&#9989<br>A partir de R$390,00 &#9989<hr></small>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Saiba Mais
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./assets/balneario-camboriu.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Balneário Camboriú</h5>
+                    <p class="card-text">Balneário Camboríu é o principal destino brasileiro quando os assuntos são balada, jovens e praia. Durante a alta temporada, tem festa pra todo lado, nos mais variados estabelecimentos. Além disso, é o lugar escolhido por muita gente para morar, por causa da tranquilidade e da proximidade do mar.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Desconto de 15% &#9989<br>A partir de R$390,00 &#9989<hr></small>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Saiba Mais
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./assets/lencois-maranhenses.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Lençóis Maranhenses</h5>
+                    <p class="card-text">Quem visitar os Lençóis Maranhenses poderá investir em dias na praia do Caburé e em Atins, em passeios pelo Rio Preguiças e Rio Formiga tudo envolvendo percursos em veículos 4x4, lindas paisagens, águas transparentes e areia sempre fina e muito branca.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Desconto de 15% &#9989<br>A partir de R$390,00 &#9989<hr></small>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Saiba Mais
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./assets/fernando-de-noronha.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Fernando de Noronha</h5>
+                    <p class="card-text">Fernando de Noronha é um arquipélago vulcânico situado a cerca de 350 quilómetros ao largo da costa nordeste do Brasil. Tem o nome da sua maior ilha, um parque marinho e santuário ecológico protegido com uma linha costeira recortada e vários ecossistemas.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Desconto de 15% &#9989<br>A partir de R$390,00 &#9989<hr></small>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Saiba Mais
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                    
+                    <!-- Final da Primeira Linha de Cards-->
+
+                    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                    
+                    <!-- Inicio da Segunda linha de Cards-->
+                        
+
+          <div class="container">
+            <div class="row row-cols-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./assets/rio-de-janeiro.jpg" height="202px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Rio de Janeiro</h5>
+                    <p class="card-text">O Rio de Janeiro é uma grande cidade brasileira à beira-mar, famosa pelas praias de Copacabana e Ipanema, pela estátua de 38 metros de altura do Cristo Redentor, no topo do Corcovado, e pelo Pão de Açúcar, um pico de granito com teleféricos até seu cume.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Desconto de 15% &#9989<br>A partir de R$490,00 &#9989<hr></small>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Saiba Mais
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./assets/jericoacoara.jpg" height="202px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Jericoacoara</h5>
+                    <p class="card-text">Entre dunas, mar, lagoas e mangues, a vila de Jeri é um refúgio diante da modernidade das grandes cidades e do agito diário. Por lá não há edifícios altos, necessidade de carros ou ruas calçadas — suas ruas são de areia. Em sua atmosfera é perceptível a simplicidade e um acohimento, que faz muita gente se sentir em casa.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Desconto de 15% &#9989<br>A partir de R$490,00 &#9989<hr></small>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Saiba Mais
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./assets/bombinhas.jpg" height="202px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Bombinhas</h5>
+                    <p class="card-text">Presenteada por exuberantes belezas naturais, Bombinhas é composta por 3praias com características que variam desde baías com águas calmas, praias com mar agitado, e outras desertas, com acesso apenas por trilhas ou pelo mar.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Desconto de 15% &#9989<br>A partir de R$490,00 &#9989<hr></small>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Saiba Mais
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./assets/buzios.jpg" height="202px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Buzios</h5>
+                    <p class="card-text">Armação dos Búzios (ou Búzios), é conhecida como um sofisticado destino de férias com inúmeras praias. Estas incluem Ferradura, numa calma baía em forma de ferradura com desportos aquáticos, e Geribá, um local de surf popular. Entre as ruas da vila, a Rua das Pedras, calcetada, é um centro de restauração e de vida noturna.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Desconto de 15% &#9989<br>A partir de R$490,00 &#9989<hr></small>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Saiba Mais
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                
+                  <!-- Final da Segunda linha de Cards-->
+
+                  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->~
+
+                  <!-- Início da Terceira Linha de Cards-->
+
+
+          <div class="container">
+            <div class="row row-cols-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./assets/gramado.jpg" height="202px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Gramado</h5>
+                    <p class="card-text">Gramado é também conhecida pelas suas exibições de luzes de Natal e pelas hortênsias em flor na primavera. O Lago Negro disponibiliza alugueres de barcos e caminhadas na floresta, enquanto as montanhas da Serra Gaúcha possuem trilhos de caminhada e de alpinismo.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Desconto de 15% &#9989<br>A partir de R$490,00 &#9989<hr></small>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Saiba Mais
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./assets/marajo.jpg" height="202px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Ilha de Marajó</h5>
+                    <p class="card-text">A Ilha de Marajó é uma ilha costeira do tipo fluviomarítima situada na Área de Proteção Ambiental do arquipélago do Marajó, no estado do Pará, na região norte do Brasil. Considerada a maior ilha fluviomarítima do planeta.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Desconto de 15% &#9989<br>A partir de R$490,00 &#9989<hr></small>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Saiba Mais
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./assets/sao-paulo.jpg" height="202px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">São Paulo</h5>
+                    <p class="card-text">São Paulo, centro financeiro do Brasil, está entre as cidades mais populosas do mundo, com diversas instituições culturais e uma rica tradição arquitetônica. Há prédios simbólicos como a catedral neogótica, o Edifício Martinelli, um arranha-céu inaugurado em 1929, e o Edifício Copan, com suas linhas curvas projetadas pelo arquiteto modernista Oscar Niemeyer. </p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Desconto de 15% &#9989<br>A partir de R$490,00 &#9989<hr></small>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Saiba Mais
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./assets/recife.jpg" height="202px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Recife</h5>
+                    <p class="card-text">Recife, a capital do estado de Pernambuco, no nordeste do Brasil, distingue-se pelos seus vários rios, pontes, ilhéus e penínsulas. Recife Antigo, na própria ilha junto ao porto, é o centro histórico da cidade antiga que data do século XVI. A sul, a popular Praia de Boa Viagem é protegida por recifes e está ladeada de blocos de apartamentos elevados, hotéis modernos e restaurantes.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Desconto de 15% &#9989<br>A partir de R$390,00 &#9989<hr></small>
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Saiba Mais
+                    </button>
+
+                           <!--FINAL DA TERCEIRA LINHA DE CARDS-->
+                    
+                    <!-- Modal -->
+                  
+                  <!-- Button trigger modal -->
+                  <!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Launch demo modal
+                  </button> !-->
+
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Detalhes da Viagem</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <ul>
+                            <li>Hospedagem &#9989</li>
+                            <li>Passeios Turísticos &#9989</li>
+                            <li>Descontos em Restaurantes &#9989</li>
+                          </ul>
+                          <p>Hoteis Parceiros: Lorem ipsum</p><br>
+                          <p>Valor do <strong>Pacote PREMIUM</strong>: R$620,00 por pessoa</p><br>
+                          <p>Valor do pacote standard: R$520,00 por pessoa</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn btn-primary">Continuar para a compra</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer class="footer">
+          <span class="foot-information"><b>Contato</b> &#128241 : +55 47 99999-0099</span>
+          <span class="foot-information"><b><br>Endereço</b>: Rua dos Aduaneiros, Itajaí - SC<br>
+          <b>Copyright &copy; Gabriel Lima - DEVinHouse Student</b></span>
+        </footer>
+        
+                  
+    </body>
+</html>
