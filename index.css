@@ -1,3 +1,11 @@
+body {
+  background-image: url(./assets/background-img-main.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 nav {
   background-color: white;
   font-family: Arial;
@@ -5,6 +13,11 @@ nav {
 
 .nav-item {
   padding-left: 50px;
+}
+
+.nav-link {
+  font-family: arial;
+  font-size: 18px;
 }
 
 .navbar-brand {
@@ -21,11 +34,19 @@ nav {
 }
 
 .main-content {
-  background-image: url(./background-img-main.jpg);
   display: flex;
   justify-items: center;
   justify-content: center;
   background-repeat: no-repeat;
+}
+
+.pct-content {
+  font-size: 19px;
+}
+
+.pct-content-2 {
+  font-size: 15px;
+  font-style: italic;
 }
 
 .text-inside {
@@ -46,6 +67,11 @@ p {
   height: 90px;
   margin-top: 40px;
   padding-top: 10px;
+}
+
+.btn-success {
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 /*# sourceMappingURL=index.css.map */
